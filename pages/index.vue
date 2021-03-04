@@ -15,7 +15,7 @@
               <v-list-item-subtitle v-if="false">Subtitle</v-list-item-subtitle>
             </v-list-item-content>
             <v-btn>
-              <nuxt-link :to="{ path: `/posts/${item.id}`, params: { postID: `${item.id}`, authorID: `${item.userId}` }}" prefetch>
+              <nuxt-link :to="`/posts/${item.id}`" prefetch>
                 Read more...
               </nuxt-link>
             </v-btn>
