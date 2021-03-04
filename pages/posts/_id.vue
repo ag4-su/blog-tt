@@ -13,7 +13,7 @@
             <span class="title font-weight-light"> {{getCurrentPostData.title}}</span>
           </v-card-title>
 
-          <v-card-text class="font-weight-bold" style="white-space: pre;">{{getCurrentPostData.body}}</v-card-text>
+          <v-card-text class="font-weight-bold text-pre-wrap ml-8">{{getCurrentPostData.body}}</v-card-text>
 
           <v-list-item>
             <v-list-item-avatar color="grey darken-3">
